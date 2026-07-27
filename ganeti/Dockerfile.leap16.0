@@ -58,6 +58,7 @@ RUN zypper --non-interactive install --no-confirm --no-recommends \
   python3-PyYAML \
   python3-Sphinx \
   qemu-img \
+  shelltestrunner \
   socat && zypper --non-interactive clean --all
 
 # uh, configure should hanlde this
